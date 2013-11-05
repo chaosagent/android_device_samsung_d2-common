@@ -31,3 +31,6 @@ LOCAL_MODULE := lights.msm8960
 LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_SHARED_LIBRARY)
+
+LOCAL_CFLAGS += -Wformat
+
